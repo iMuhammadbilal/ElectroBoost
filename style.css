@@ -1,0 +1,136 @@
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.navbar {
+    background-color: #111;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px #00FFFF;
+}
+.navbar a {
+    color: #00FFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+.hero {
+    padding: 50px;
+    background: linear-gradient(90deg, #00FFFF, #39FF14);
+    color: #000;
+}
+.products {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.product-card {
+    background-color: #222;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00FFFF;
+    text-align: center;
+}
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.cta {
+    background-color: #39FF14;
+    color: #000;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+.products, .discounts, .reviews, .newsletter, .contact {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.product-card, .discount-card, .review-card, .newsletter-box{
+    background-color: #222;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00FFFF;
+    text-align: center;
+}
+.newsletter-box, .contact-box {
+    padding: 40px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00FFFF;
+    text-align: center;
+}
+
+.product-card img, .discount-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.review-card {
+    color: #ffffff;
+    font-style: italic;
+}
+.newsletter-box input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.newsletter-box button {
+    background-color: #00FFFF;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.newsletter-box input, .contact-box input, .contact-box textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+.newsletter-box button, .contact-box button {
+    background-color: #00FFFF;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* footer style */
+.footer {
+    background-color: #111;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 -2px 10px #00FFFF;
+}
+.footer a {
+    color: #00FFFF;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
