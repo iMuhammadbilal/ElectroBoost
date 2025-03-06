@@ -6,7 +6,6 @@ body {
     padding: 0;
     text-align: center;
 }
-/* navbar styling  */
 .navbar {
     background-color: #111;
     padding: 15px;
@@ -21,13 +20,11 @@ body {
     margin: 0 15px;
     font-weight: bold;
 }
-/* hero styling */
 .hero {
     padding: 50px;
     background: linear-gradient(90deg, #00FFFF, #39FF14);
     color: #000;
 }
-/* prodducts section atyling */
 .products {
     padding: 50px;
     display: flex;
@@ -57,7 +54,6 @@ body {
     display: inline-block;
     margin-top: 10px;
 }
-/* discounts section styling */
 .products, .discounts, .reviews, .newsletter, .contact {
     padding: 50px;
     display: flex;
@@ -73,7 +69,6 @@ body {
     box-shadow: 0 0 10px #00FFFF;
     text-align: center;
 }
-/* newsletter and contact  section styling */
 .newsletter-box, .contact-box {
     padding: 40px;
     width: 80%;
@@ -125,7 +120,7 @@ body {
     border-radius: 5px;
 }
 
-/* footer section style */
+/* footer style */
 .footer {
     background-color: #111;
     padding: 20px;
